@@ -1,0 +1,44 @@
+{
+  "name": "kscrash-converter",
+  "version": "1.0.0",
+  "description": "Small tool to convert KSCrash JSON reports to Apple Crash Format",
+  "author": {
+    "name": "Isaac Whitfield",
+    "email": "iwhitfield@appcelerator.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zackehh/kscrash-converter.git"
+  },
+  "bugs": {
+    "email": "iwhitfield@appcelerator.com",
+    "url": "https://github.com/zackehh/kscrash-converter/issues"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "keywords": [
+    "crash",
+    "ios",
+    "kscrash",
+    "report",
+    "xcode"
+  ],
+  "scripts": {
+    "coverage": "grunt coverage",
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "lodash": "4.13.1",
+    "moment-timezone": "0.5.4"
+  },
+  "devDependencies": {
+    "grunt": "1.0.1",
+    "grunt-cli": "1.2.0",
+    "grunt-contrib-clean": "1.0.0",
+    "grunt-mocha-istanbul": "5.0.1",
+    "grunt-mocha-test": "0.12.7",
+    "istanbul": "0.4.4",
+    "mocha": "2.5.3",
+    "should": "9.0.2"
+  }
+}
