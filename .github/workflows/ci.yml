@@ -11,7 +11,7 @@ jobs:
     name: Node.js ${{ matrix.node }}
     runs-on: ${{ matrix.os }}
     container:
-      image: node:${{ node.elixir }}
+      image: node:${{ matrix.node }}
     strategy:
       matrix:
         os:
