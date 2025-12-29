@@ -10,6 +10,8 @@ jobs:
   build:
     name: Node.js ${{ matrix.node }}
     runs-on: ${{ matrix.os }}
+    container:
+      image: node:${{ node.elixir }}
     strategy:
       matrix:
         os:
@@ -17,17 +19,16 @@ jobs:
           - ubuntu-latest
           - windows-latest
         node:
-          - 22.x
-          - 20.x
-          - 18.x
-          - 16.x
-          - 14.x
-          - 12.x
+          - lts
+          - 24
+          - 22
+          - 20
+          - 18
+          - 16
+          - 14
+          - 12
     steps:
     - uses: actions/checkout@v4
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node }}
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test --if-present
