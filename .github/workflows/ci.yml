@@ -9,15 +9,11 @@ on:
 jobs:
   build:
     name: Node.js ${{ matrix.node }}
-    runs-on: ${{ matrix.os }}
+    runs-on: ubuntu-latest
     container:
       image: node:${{ matrix.node }}
     strategy:
       matrix:
-        os:
-          - macox-latest
-          - ubuntu-latest
-          - windows-latest
         node:
           - lts
           - 24
