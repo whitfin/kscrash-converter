@@ -8,7 +8,7 @@ Version:         1.0 (1.0)
 Code Type:       ARM
 Parent Process:  launchd [1]
 
-Date/Time:       1970-01-18 03:49:14.000 +0900
+Date/Time:       1970-01-18 02:49:14.000 +0800
 OS Version:      iPhone OS 4.3.3 (8J2)
 Report Version:  104
 
@@ -70,11 +70,11 @@ Thread 6:
 2   libsystem_c.dylib               0x36264310 0x36231000 + 209680 (_pthread_start + 248)
 
 Thread 0 crashed with ARM Thread State:
-    r0: 0x00002803     r1: 0x00002903     r2: 0x00000001     r3: 0x00000000 
-    r4: 0x00000000     r5: 0x1d5bd0e8     r6: 0x00002903     r7: 0x2feebb0c 
-    r8: 0x00002803     r9: 0x1d5fc0a0    r10: 0x12141968    r11: 0x00000000 
-    ip: 0xffffffdb     sp: 0x2feebb0c     lr: 0x3618bf59     pc: 0x3618bc5c 
-  cpsr: 0x60000010 
+    r0: 0x00002803     r1: 0x00002903     r2: 0x00000001     r3: 0x00000000
+    r4: 0x00000000     r5: 0x1d5bd0e8     r6: 0x00002903     r7: 0x2feebb0c
+    r8: 0x00002803     r9: 0x1d5fc0a0    r10: 0x12141968    r11: 0x00000000
+    ip: 0xffffffdb     sp: 0x2feebb0c     lr: 0x3618bf59     pc: 0x3618bc5c
+  cpsr: 0x60000010
 
 Binary Images:
    0xee000 -   0x132fff +Crash-Tester armv7  <5425b875d1423832be8c3b7dd8130813> /var/mobile/Applications/B19FDF7E-768B-42D9-88E7-80F757E22883/Crash-Tester.app/Crash-Tester

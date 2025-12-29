@@ -8,7 +8,7 @@ Version:         1.0 (1.0)
 Code Type:       ARM
 Parent Process:  launchd [1]
 
-Date/Time:       1970-01-18 03:46:58.000 +0900
+Date/Time:       1970-01-18 02:46:58.000 +0800
 OS Version:      iPhone OS 4.3.3 (8J2)
 Report Version:  104
 
@@ -106,11 +106,11 @@ Thread 6 name:  KSCrash Exception Handler (Primary)
 Thread 6:
 
 Thread 0 crashed with ARM Thread State:
-    r0: 0x1cd7d1d0     r1: 0x00094586     r2: 0x35097c89     r3: 0x000a4d40 
-    r4: 0x000a4dac     r5: 0x35097c89     r6: 0x000a4da8     r7: 0x2fd5a010 
-    r8: 0x35097c89     r9: 0x1cd7d018    r10: 0x000a4d94    r11: 0x35097c89 
-    ip: 0x00061875     sp: 0x2fd5a008     lr: 0x0006189b     pc: 0x35097c92 
-  cpsr: 0x20000030 
+    r0: 0x1cd7d1d0     r1: 0x00094586     r2: 0x35097c89     r3: 0x000a4d40
+    r4: 0x000a4dac     r5: 0x35097c89     r6: 0x000a4da8     r7: 0x2fd5a010
+    r8: 0x35097c89     r9: 0x1cd7d018    r10: 0x000a4d94    r11: 0x35097c89
+    ip: 0x00061875     sp: 0x2fd5a008     lr: 0x0006189b     pc: 0x35097c92
+  cpsr: 0x20000030
 
 Binary Images:
    0x5a000 -    0x9efff +Crash-Tester armv7  <5425b875d1423832be8c3b7dd8130813> /var/mobile/Applications/B19FDF7E-768B-42D9-88E7-80F757E22883/Crash-Tester.app/Crash-Tester

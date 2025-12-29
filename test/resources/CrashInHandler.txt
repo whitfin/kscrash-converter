@@ -8,7 +8,7 @@ Version:         1.0 (1.0)
 Code Type:       ARM
 Parent Process:  launchd [1]
 
-Date/Time:       1970-01-18 04:45:51.000 +0900
+Date/Time:       1970-01-18 03:45:51.000 +0800
 OS Version:      iPhone OS 4.3.3 (8J2)
 Report Version:  104
 
@@ -75,11 +75,11 @@ Thread 7 name:  KSCrash Exception Handler (Primary)
 Thread 7:
 
 Thread 0 crashed with ARM Thread State:
-    r0: 0xffffffff     r1: 0x000624cc     r2: 0x00000001     r3: 0xffffffff 
-    r4: 0x35097c89     r5: 0x00062015     r6: 0x1d5100b0     r7: 0x2fe25818 
-    r8: 0x35097c89     r9: 0x1d566ad8    r10: 0x00072d94    r11: 0x35097c89 
-    ip: 0x0002f549     sp: 0x2fe257e0     lr: 0x0002e88f     pc: 0x0002f560 
-  cpsr: 0x20000030 
+    r0: 0xffffffff     r1: 0x000624cc     r2: 0x00000001     r3: 0xffffffff
+    r4: 0x35097c89     r5: 0x00062015     r6: 0x1d5100b0     r7: 0x2fe25818
+    r8: 0x35097c89     r9: 0x1d566ad8    r10: 0x00072d94    r11: 0x35097c89
+    ip: 0x0002f549     sp: 0x2fe257e0     lr: 0x0002e88f     pc: 0x0002f560
+  cpsr: 0x20000030
 
 Binary Images:
    0x28000 -    0x6cfff +Crash-Tester armv7  <a8e0e7c442ca3f418b789a65854adb0c> /var/mobile/Applications/B19FDF7E-768B-42D9-88E7-80F757E22883/Crash-Tester.app/Crash-Tester
@@ -521,11 +521,11 @@ Thread 7 Crashed:
 8   libsystem_c.dylib               0x36264310 0x36231000 + 209680 (_pthread_start + 248)
 
 Thread 7 crashed with ARM Thread State:
-    r0: 0x362a26f4     r1: 0x040329d8     r2: 0x3f926fcc     r3: 0x00000001 
-    r4: 0x00000000     r5: 0x00000000     r6: 0x3f9278d0     r7: 0x04032458 
-    r8: 0x00000000     r9: 0x00001002    r10: 0x3f9278d0    r11: 0x00000000 
-    ip: 0x00000001     sp: 0x0403218c     lr: 0x3625d1a7     pc: 0x3625d1dc 
-  cpsr: 0x40000030 
+    r0: 0x362a26f4     r1: 0x040329d8     r2: 0x3f926fcc     r3: 0x00000001
+    r4: 0x00000000     r5: 0x00000000     r6: 0x3f9278d0     r7: 0x04032458
+    r8: 0x00000000     r9: 0x00001002    r10: 0x3f9278d0    r11: 0x00000000
+    ip: 0x00000001     sp: 0x0403218c     lr: 0x3625d1a7     pc: 0x3625d1dc
+  cpsr: 0x40000030
 
 Recrash Diagnosis: Attempted to dereference null pointer.
 Originated at or in a subcall of onCrash
